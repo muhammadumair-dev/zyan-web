@@ -1131,6 +1131,7 @@ nav ul li a {
     }
 }
 .ft-footer {
+    margin-top: 100px;
     width: 100%;
     background-color: #0d160e;
     color: #ffffff;
