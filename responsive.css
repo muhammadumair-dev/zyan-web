@@ -1,0 +1,1173 @@
+/* =========================================================
+   1. Laptop & Large Tablet (1115px - 1024px)
+ ===================================================== */
+@media (max-width: 1024px) and (min-width: 992px) {
+
+    /* Nav: Links ke beech gap kam karein */
+    nav ul {
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    /* Hero: Shapes ko thoda transparent karein taaki text padha jaye */
+.reduis {
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+#firstre {
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    background-color: #fff;
+    top: 150px;
+    z-index: 5;
+    right: 50px;
+}
+nav {
+    width: 60%;
+    height: 100px;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+
+.logo-card {
+    width: 20%;
+    height: 170px;}
+.main-container{
+    margin-top: 10px;
+}
+#secre {
+    height: 70%;
+    width: 75%;
+    position: relative;
+
+    top: 0px;
+    left: 40px;
+    justify-self: center;
+}
+
+.text-get{
+    width: 100%;
+    height: 50px;
+}
+
+#thirere {
+    width: 19%;
+    height: 25%;
+    position: absolute;
+    background-color: #ffffff;
+    top: 500px;
+    left: 500px;
+}
+    /* Founder Stats Container wrapping allow karein */
+    .stats-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 20px;
+    }
+    .hero-text{
+    justify-content: start;}
+}
+
+/* =========================================================
+   3. Tablet Medium (992px - 877px)
+   Yahan hum Grid ko 4 columns se 2 columns mein todenge
+   ========================================================= */
+@media (max-width: 992px) and (min-width: 877px) {
+   /* Nav: Links ke beech gap kam karein */
+    nav ul {
+        gap: 15px;
+        padding: 10px 20px;
+    }
+     .ft-links-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Hero: Shapes ko thoda transparent karein taaki text padha jaye */
+.reduis {
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+#firstre {
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    background-color: #ffffff;
+    top: 150px;
+    z-index: 5;
+    right: 50px;
+}
+.hero-text{
+    justify-content: start;
+     padding-left: 50px;
+     padding-top:20px ;
+}
+
+#secre {
+    height: 60%;
+    width: 80%;
+    position: relative;
+    background-color:#f0e7e7; ;
+    top: 0px;
+    left: 40px;
+    justify-self: center;
+}
+.text-get{
+    width: 100%;
+    height: 50px;
+}
+nav {
+    width: 60%;
+    height: 100px;}
+.logo-card {
+    width: 20%;
+    height: 150px;}
+#thirere {
+     width: 20%;
+    height: 25%;
+    position: absolute;
+    background-color: #ffffff;
+    top: 520px;
+    left: 500px;
+}
+.hero {
+    display: flex;
+    height: 90vh;}
+    /* Founder Stats Container wrapping allow karein */
+    .stats-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 20px;
+    }
+    .main-container {
+    width: 100%;
+    margin-top: 00px;
+}
+}
+
+/* =========================================================
+   3. Tablet Medium (992px - 877px)
+   Yahan hum Grid ko 4 columns se 2 columns mein todenge
+   ==========
+/* =========================================================
+   4. Tablet Portrait (877px - 768px)
+   Major Breakpoint: Yahan layout Stack (Column) hona shuru hoga
+   ========================================================= */
+@media (max-width: 877px) and (min-width: 768px) {
+
+    nav ul {
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    /* Hero: Shapes ko thoda transparent karein taaki text padha jaye */
+.reduis {
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+ .stats-container {
+        flex-direction: column;
+        gap: 30px;
+        border-radius: 30px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card {
+        padding: 30px;
+    }
+     .cards-grid {
+        grid-template-columns: 1fr;
+    }
+.services-container {
+    width: 100%;
+    margin-top: 880px;
+    padding-top: 80px;
+  
+}
+    .header-content h1 {
+        font-size: 2rem;
+    }
+      .contact-row {
+        flex-direction: column;
+        gap: 25px;
+    }
+      .info-list-container {
+        max-width: 100%;
+    }
+
+    .contact-card {
+        padding: 30px;
+    }
+#firstre {
+    width: 18%;
+    height: 22%;
+    position: absolute;
+    background-color: #ffffff;
+    top: 200px;
+    z-index: 5;
+    right: 40px;
+}
+.hero-text{
+    justify-content: start;
+     padding-left: 50px;
+     padding-top:20px ;
+}
+
+#secre {
+    height: 55%;
+    width: 75%;
+    position: relative;
+    background-color:#f0e7e7; ;
+    top: 40px;
+    left: 40px;
+    justify-self: center;
+}
+.text-get{
+    width: 100%;
+    height: 50px;
+}
+nav {
+       align-items: start;
+    width: 60%;
+    padding-top: 20px;
+    height: 100px;}
+.logo-card {
+    width: 20%;
+    height: 150px;}
+#thirere {
+        width: 18%;
+    height: 22%;
+    position: absolute;
+    background-color: #ffffff;
+    top: 500px;
+    left: 450px;
+}
+.hero {
+    display: flex;
+    height: 90vh;}
+    /* Founder Stats Container wrapping allow karein */
+    .stats-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 20px;
+    }
+    .main-container {
+    width: 100%;
+    margin-top: 00px;
+}
+}
+
+/* =========================================================
+   5. Large Mobile (767px - 576px)
+   Yahan sab kuch single column (1 ke neeche 1) hoga
+   ========================================================= */
+@media (max-width: 768px) and (min-width: 576px) {
+
+    nav ul {
+
+        width: 100%;
+    }
+
+    /* Hero: Shapes ko thoda transparent karein taaki text padha jaye */
+.reduis {
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+ .stats-container {
+        flex-direction: column;
+        gap: 30px;
+        border-radius: 30px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card {
+        padding: 30px;
+    }
+     .cards-grid {
+        grid-template-columns: 1fr;
+    }
+.services-container {
+    width: 100%;
+    margin-top: 880px;
+    padding-top: 80px;
+  
+}
+    .header-content h1 {
+        font-size: 2rem;
+    }
+      .contact-row {
+        flex-direction: column;
+        gap: 25px;
+    }
+      .info-list-container {
+        max-width: 100%;
+    }
+
+    .contact-card {
+        padding: 30px;
+    }
+#firstre {
+    width: 20%;
+    height: 18%;
+    position: absolute;
+    background-color: #ffffff;
+    top: 200px;
+    z-index: 5;
+    right: 60px;
+}
+.hero-text{
+    justify-content: start;
+     padding-left: 0px;
+     padding-top:30px ;
+     width: 45%;
+     gap: 10px;
+}
+
+#secre {
+    height: 57%;
+    width: 80%;
+    position: relative;
+    background-color:#f0e7e7; ;
+    top: 40px;
+    left: 45px;
+    justify-self: center;
+}
+.text-get span {
+    color: #ffffff;
+    display: flex;
+    gap: 5px;
+    font: 20px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+.text-get{
+       
+}
+.hero-btn {
+    display: flex;
+    width: 100%;
+    align-items:center;
+    height: 100px;
+    gap: 10px;
+}
+
+.btn-hero {
+    width: 50%;
+    height: 55%;
+    background-color: #e5e907;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-hero a {
+    font: 15px 'Poppins ', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.title {
+    width: 280px;
+    white-space: 0px;
+    font: 60px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+
+.title h2 {
+    color: #ffffff;
+    word-spacing: 0px;
+    line-height: 1.0;
+}
+.get-modi {
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #4ebb2d;
+}
+.text-get{
+    width: 100%;
+    height: 40px;
+}
+nav ul li a {
+    font: 13px 'Oxanium ', sans-serif;
+    color: #ffffff;
+    font: bold;
+}
+nav {
+       align-items: start;
+    width: 50%;
+    padding-top: 20px;
+    height: 120px;}
+.logo-card {
+    width: 25%;
+    height: 130px;
+    gap: 10px;
+margin-left: 0px;
+    border-bottom-left-radius: 0px;}
+    .logo-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    line-height: 1;
+}
+
+#thirere {
+     width: 20%;
+    height: 18%;
+    position: absolute;
+    
+    top: 480px;
+    left: 370px;
+}
+
+.stats-row {
+    width: 100%;}
+.hero {
+    display: flex;
+    height: 80vh;}
+    /* Founder Stats Container wrapping allow karein */
+    .stats-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 20px;
+    }
+    .main-container {
+    width: 100%;
+    margin-top: 00px;
+}
+
+}
+
+/* =========================================================
+   6. Small Phones (Max Width 576px)
+   Bilkul chote screens ke liye adjustments
+   ========================================================= */
+@media (max-width: 576px)and (min-width: 374px) {
+        nav ul {
+
+        width: 100%;
+    }
+
+    /* Hero: Shapes ko thoda transparent karein taaki text padha jaye */
+.reduis {
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+ .stats-container {
+        flex-direction: column;
+        gap: 30px;
+        border-radius: 30px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card {
+        padding: 30px;
+    }
+     .cards-grid {
+        grid-template-columns: 1fr;
+    }
+.services-container {
+    width: 100%;
+    margin-top: 880px;
+    padding-top: 80px;
+  
+}
+    .header-content h1 {
+        font-size: 2rem;
+    }
+      .contact-row {
+        flex-direction: column;
+        gap: 25px;
+    }
+      .info-list-container {
+        max-width: 100%;
+    }
+
+    .contact-card {
+        padding: 30px;
+    }
+#firstre {
+    width: 20%;
+    height: 18%;
+    position: absolute;
+    background-color: #ffffff;
+    top: 200px;
+    z-index: 5;
+    right: 60px;
+}
+.hero-text{
+    justify-content: start;
+     padding-left: 0px;
+     padding-top:30px ;
+     width: 45%;
+     gap: 10px;
+}
+
+#secre {
+    height: 55%;
+    width: 80%;
+    position: relative;
+    background-color:#f0e7e7; ;
+    top: 40px;
+    left: 45px;
+    justify-self: center;
+}
+.text-get span {
+    color: #ffffff;
+    display: flex;
+    gap: 5px;
+    font: 20px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+.text-get{
+       
+}
+.hero-btn {
+    display: flex;
+    width: 100%;
+    align-items:center;
+    height: 100px;
+    gap: 10px;
+}
+
+.btn-hero {
+    width: 50%;
+    height: 55%;
+    background-color: #e5e907;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-hero a {
+    font: 15px 'Poppins ', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.title {
+    width: 280px;
+    white-space: 0px;
+    font: 60px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+
+.title h2 {
+    color: #ffffff;
+    word-spacing: 0px;
+    line-height: 1.0;
+}
+.get-modi {
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #4ebb2d;
+}
+.text-get{
+    width: 100%;
+    height: 40px;
+}
+nav ul li a {
+    font: 13px 'Oxanium ', sans-serif;
+    color: #ffffff;
+    font: bold;
+}
+nav {
+       align-items: start;
+    width: 50%;
+    padding-top: 20px;
+    height: 120px;}
+.logo-card {
+    width: 25%;
+    height: 130px;
+    gap: 10px;
+margin-left: 0px;
+    border-bottom-left-radius: 0px;}
+    .logo-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    line-height: 1;
+}
+
+#thirere {
+     width: 20%;
+    height: 18%;
+    position: absolute;
+    background-color: #882f2f;
+    top: 600px;
+    left: 350px;*
+}
+.reduis-box{
+    display: none;
+}
+.stats-row {
+    
+    width: 120%;}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 100vh;}
+    /* Founder Stats Container wrapping allow karein */
+    .stats-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 20px;
+    }
+    .main-container {
+    width: 100%;
+    margin-top: 00px;
+    
+}
+
+.hero-text {
+    height: 80%;
+   
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+
+    width: 100%;
+}
+
+.text-get {
+    width: 100%;
+    height: 50px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-get span {
+    color: #ffffff;
+    display: flex;
+    gap: 5px;
+    font: 32px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+
+.get-modi {
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #4ebb2d;
+}
+
+.title {
+    width: 280px;
+    white-space: 0px;
+    font: 75px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+
+.title h2 {
+    color: #ffffff;
+    word-spacing: 0px;
+    line-height: 1.0;
+}
+
+.hero-btn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 15px;
+   
+}
+.services-container {
+    width: 100%;
+    margin-top:0px;
+    padding-top: 0px;
+    background-color: #ffffff;
+}
+.btn-hero {
+    width: 30%;
+    height: 48%;
+    background-color: #e5e907;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-hero a {
+    font: 18px 'Poppins ', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.stat-number {
+    font-size: 1rem;
+    color: #ccff00;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.main-container {
+    width: 100%;
+    margin-top: 0px;}
+
+.stat-label {
+    color: #ffffff;
+    line-height: 1.1;
+    font-weight: 400;
+    font: 20px 'Oxanium ', sans-serif;
+}
+
+
+}
+@media (max-width: 374px)  {
+           nav ul {
+
+        width: 100%;
+    }
+    header {
+    display: inline;
+   
+}
+
+
+    /* Hero: Shapes ko thoda transparent karein taaki text padha jaye */
+.reduis {
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+ .stats-container {
+        flex-direction: column;
+        gap: 30px;
+        border-radius: 30px;
+     
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card {
+        padding: 30px;
+    }
+     .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .header-content h1 {
+        font-size: 2rem;
+    }
+      .contact-row {
+        flex-direction: column;
+        gap: 25px;
+    }
+      .info-list-container {
+        max-width: 100%;
+    }
+
+    .contact-card {
+        padding: 30px;
+    }
+#firstre {
+    width: 20%;
+    height: 18%;
+    position: absolute;
+    background-color: #ffffff;
+    top: 200px;
+    z-index: 5;
+    right: 60px;
+}
+.hero-text{
+    justify-content: start;
+     padding-left: 0px;
+     padding-top:30px ;
+     width: 45%;
+     gap: 10px;
+}
+
+#secre {
+    height: 55%;
+    width: 80%;
+    position: relative;
+    background-color:#f0e7e7; ;
+    top: 40px;
+    left: 45px;
+    justify-self: center;
+}
+.text-get span {
+    color: #ffffff;
+    display: flex;
+    gap: 5px;
+    font: 20px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+    
+
+.hero-btn {
+    display: flex;
+    width: 100%;
+    align-items:center;
+    height: 100px;
+    gap: 10px;
+}
+
+.btn-hero {
+    width: 50%;
+    height: 55%;
+    background-color: #e5e907;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-hero a {
+    font: 15px 'Poppins ', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.title {
+    width: 280px;
+    white-space: 0px;
+    font: 60px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+
+.title h2 {
+    color: #ffffff;
+    word-spacing: 0px;
+    line-height: 1.0;
+}
+.get-modi {
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #4ebb2d;
+}
+.text-get{
+    width: 100%;
+    height: 40px;
+}
+nav ul li a {
+    font: 13px 'Oxanium ', sans-serif;
+    color: #ffffff;
+    font: bold;
+}
+nav {
+       align-items: start;
+    width: 100%;
+    padding-top: 20px;
+    height: 120px;}
+.logo-card {
+    width: 25%;
+    height: 130px;
+    gap: 55px;
+    justify-self: center;
+margin-left: 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+    .logo-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    line-height: 1;
+}
+body{
+    overflow-x: hidden;
+}
+#thirere {
+     width: 20%;
+    height: 18%;
+    position: absolute;
+    background-color: #882f2f;
+    top: 600px;
+    left: 350px;*
+}
+.reduis-box{
+    display: none;
+}
+.stats-row {
+    width: 100%;}
+.hero {
+    display: flex;
+    
+    justify-content: center;
+    height:fit-content;
+}
+    /* Founder Stats Container wrapping allow karein */
+    .stats-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 20px;
+    }
+    .main-container {
+    width: 100%;
+    margin-top: 00px;
+}
+
+.hero-text {
+    height: 80%;
+   
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-top:0px ;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.text-get {
+    width: 90%;
+    height: 50px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-get span {
+    color: #ffffff;
+    display: flex;
+    gap: 5px;
+    font: 22px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+
+.get-modi {
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #4ebb2d;
+}
+
+.title {
+    width: 280px;
+    white-space: 0px;
+ 
+    font: 75px 'Oxanium ', sans-serif;
+    font-weight: bold;
+}
+
+.title h2 {
+    color: #ffffff;
+    word-spacing: 0px;
+    line-height: 1.0;
+}
+
+.hero-btn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 15px;
+   
+}
+
+.btn-hero {
+    width: 40%;
+    height: 48%;
+    background-color: #e5e907;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-hero a {
+    font: 18px 'Poppins ', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.stat-number {
+    font-size: 1rem;
+    color: #ccff00;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.main-container {
+    width: 100%;
+    margin-top: 0px;}
+
+.stat-label {
+    color: #ffffff;
+    line-height: 1;
+    font-weight: 400;
+    font: 20px 'Oxanium ', sans-serif;
+}
+    header {
+    flex-direction: column;
+   
+    align-items: center;
+}
+ .stats-row {
+    gap: 10px;
+    ;
+    padding: 0px;
+    
+ 
+    width: 100%;}   
+.services-container {
+    width: 100%;
+    margin-top: 980px;
+    padding-top: 80px;
+ 
+  
+}
+.fw-card{
+    justify-self: center;
+    width: 120%;
+    height: 600px;
+}
+.fw-image-box{
+      height: 200px;
+}
+
+.fw-content {
+    padding: 0 10px;
+}
+
+.fw-meta {
+   
+    margin-bottom: 10px;
+ 
+   
+}
+
+
+.fw-project-text {
+    color: #cccccc;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.fw-tags {
+    display: flex;
+  
+    margin-bottom: 15px;
+}
+
+.fw-tag {
+    border: 1px solid #335c24;
+    color: #9fc509;
+    padding: 0px 0px;
+    width: 270px;
+    text-align: center;
+   
+}
+
+.fw-stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2px;
+}
+
+.fw-stat-item {
+    color: #ccff00;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.fw-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.fw-arrow {
+    color: #ccff00;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+}
