@@ -19,42 +19,45 @@ reveals.forEach(reveal => {
 });
 
 
-// ==========================================
-// 2. NUMBER COUNTER ANIMATION
-// ==========================================
 let valueDisplays = document.querySelectorAll(".num");
 let interval = 2000; 
 
 function startCounter(valueDisplay) {
-    let startValue = 0;
+    // data-start attribute check karein, agar nahi hai to 0 lein
+    let startValue = parseInt(valueDisplay.getAttribute("data-start")) || 0;
     let endValue = parseInt(valueDisplay.getAttribute("data-val"));
     
-    // Agar data-val missing hai ya 0 hai to error se bachne ke liye
-    if (!endValue || endValue === 0) {
+    // Total steps kitne chalne hain (Ex: 2025 - 2000 = 25 steps)
+    let totalSteps = endValue - startValue;
+    
+    // Agar steps 0 ya negative hain to error se bachne ke liye return karein
+    if (totalSteps <= 0) {
         valueDisplay.textContent = endValue;
         return;
     }
 
-    let duration = Math.floor(interval / endValue);
+    // Duration calculation ab total steps ke hisaab se hogi
+    let duration = Math.floor(interval / totalSteps);
     if (duration < 1) duration = 1;
 
     let counter = setInterval(function () {
         startValue += 1;
         valueDisplay.textContent = startValue;
 
-        if (startValue == endValue) {
+        if (startValue >= endValue) {
+            valueDisplay.textContent = endValue; // Ensure final value is exact
             clearInterval(counter);
         }
     }, duration);
 }
 
-// Iska naam badal kar 'counterObserver' kar diya
+// Observer Code (Same as before)
 const counterObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             const target = entry.target;
             startCounter(target);
-            observer.unobserve(target); // Animation hone ke baad band karein
+            observer.unobserve(target);
         }
     });
 }, {
