@@ -154,6 +154,7 @@ nav ul li a {
     height: 100vh;
     width: 100%;
     
+    
 }
 
 .hero-text {
@@ -251,7 +252,7 @@ nav ul li a {
     height: 38%;
     position: absolute;
     background-color: #ffffff;
-    top: 150px;
+    top: 0px;
     z-index: 5;
     right: 120px;
 }
@@ -271,7 +272,7 @@ nav ul li a {
     height: 38%;
     position: absolute;
     background-color: #ffffff;
-    top: 620px;
+    top: 400px;
     left: 680px;
 }
 
@@ -998,7 +999,7 @@ nav ul li a {
 }
 
 .contact-textarea {
-    height: 150px;
+    height: 80px;
     resize: none;
 }
 
@@ -1218,4 +1219,14 @@ nav ul li a {
 .ft-c-icon {
     color: #ccff00;
     font-size: 1.1rem;
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0px);
 }
