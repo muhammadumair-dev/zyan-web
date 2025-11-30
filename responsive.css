@@ -389,6 +389,23 @@ nav {
     display: flex;
     align-items: center;
     }
+    /* Mobile Responsiveness Adjustment */
+
+    .newsletter-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .newsletter-form button {
+        width: 100%;
+    }
+
 
     /* Hero: Shapes ko thoda transparent karein taaki text padha jaye */
 .reduis {
