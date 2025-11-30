@@ -586,6 +586,15 @@ nav {
      gap: 10px;
 }
 
+.testi-track {
+
+    height: 450px;
+    
+ 
+}
+.testi-card{
+    width: 250px;
+}
 #secre {
     height: 55%;
     width: 80%;
@@ -832,6 +841,15 @@ margin-left: 0px;
     header {
     display: inline;
    
+}
+.testi-track {
+
+    height: 450px;
+    
+ 
+}
+.testi-card{
+    width: 250px;
 }
 
 
@@ -1678,6 +1696,15 @@ body{
 
     margin-top: 0px;
     transition: transform 0.2s;
+}
+.testi-track {
+
+    height: 450px;
+    
+ 
+}
+.testi-card{
+    width: 250px;
 }
 
 
