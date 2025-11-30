@@ -1618,15 +1618,15 @@ body{
 
 .fw-tags {
     display: flex;
-  
+  gap: 15px;
     margin-bottom: 15px;
 }
 
 .fw-tag {
     border: 1px solid #335c24;
     color: #9fc509;
-    padding: 0px 0px;
-    width: 270px;
+
+    
     text-align: center;
    
 }
@@ -1699,16 +1699,56 @@ body{
 }
 .testi-track {
 
-    height: 450px;
+    height: fit-content;
     
  
 }
 .testi-card{
     width: 250px;
 }
+.testi-quote-icon {
+    font-size: 2rem;
+    color: #ccff00;
+    line-height: 1;
+    font-family: serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.testi-stars {
+    color: #ccff00;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.testi-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-weight: 200;
+    color: #e0e0e0;
+}
 
 
+.testi-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+}
 
+.testi-user-info h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1px;
+}
+
+.testi-user-info span {
+    font-size: 0.9rem;
+    color: #cccccc;
+    font-weight: 200;
+}
     
     
 }
