@@ -640,16 +640,21 @@ nav {
 }
 
 .title {
-    width: 280px;
-    white-space: 0px;
-    font: 60px 'Oxanium ', sans-serif;
+    width: 100%;
+    white-space: 1px;
+    font: 10px 'Oxanium ', sans-serif;
     font-weight: bold;
+}
+.ssp{
+        font-size: 90px;
+        padding-left: 15px;
+
 }
 
 .title h2 {
     color: #ffffff;
     word-spacing: 0px;
-    line-height: 1.0;
+    line-height: 1.2;
 }
 .get-modi {
     display: flex;
@@ -957,17 +962,23 @@ margin-left: 0px;
     font-weight: bold;
 }
 
+
 .title {
-    width: 280px;
-    white-space: 0px;
-    font: 60px 'Oxanium ', sans-serif;
+    width: 100%;
+    white-space: 1px;
+    font: 10px 'Oxanium ', sans-serif;
     font-weight: bold;
+}
+.ssp{
+        font-size: 90px;
+        padding-left: 15px;
+
 }
 
 .title h2 {
     color: #ffffff;
     word-spacing: 0px;
-    line-height: 1.0;
+    line-height: 1.2;
 }
 .get-modi {
     display: flex;
@@ -1388,16 +1399,21 @@ body{
 }
 
 .title {
-    width: 280px;
-    white-space: 0px;
-    font: 60px 'Oxanium ', sans-serif;
+    width: 100%;
+    white-space: 1px;
+    font: 10px 'Oxanium ', sans-serif;
     font-weight: bold;
+}
+.ssp{
+        font-size: 90px;
+        padding-left: 15px;
+
 }
 
 .title h2 {
     color: #ffffff;
     word-spacing: 0px;
-    line-height: 1.0;
+    line-height: 1.2;
 }
 .get-modi {
     display: flex;
@@ -1422,7 +1438,7 @@ nav {
     padding-top: 20px;
     height: 120px;}
 .logo-card {
-    width: 25%;
+    width: 35%;
     height: 130px;
     gap: 55px;
     justify-self: center;
