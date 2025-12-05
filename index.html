@@ -36,10 +36,10 @@
 
 
             <div class="logo-icon">
-               <img src="./assets/logo.png" alt="logo">
+                <img src="./assets/logo.png" alt="logo">
             </div>
 
-<!-- 
+            <!-- 
             <div class="logo-text">
                 <span class="text-craft">Craft</span>
                 <div class="tech-wrapper">
@@ -53,15 +53,15 @@
 
         <nav>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PORTFOLIO
-                    </a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li> <!-- Ab yeh kaam karega -->
+                <li><a href="#services">SERVICES</a></li> <!-- Ab yeh kaam karega -->
+                <li><a href="#contact">CONTACT</a></li> <!-- Ab yeh kaam karega -->
             </ul>
         </nav>
     </header>
-    <section class="hero  reveal">
+    <!-- id="home" add karein -->
+    <section id="home" class="hero reveal">
 
         <div class="hero-text">
             <div class="text-get"><span>Get Your <div class="get-modi"><span>Bussiness</span></div> to</span></div>
@@ -126,27 +126,27 @@
 
     <div class="container  reveal">
 
-  <div class="stats-container">
-    <div class="stat-item">
-       <h2><span class="num" data-start="2000" data-val="2025">2000</span></h2>
-    <p>Founded</p>
-    </div>
-    <div class="stat-item">
-      
-        <h2><span class="num" data-val="30">0</span>+</h2>
-        <p>Team Members</p>
-    </div>
-    <div class="stat-item">
-    
-        <h2><span class="num" data-val="15">0</span>+</h2>
-        <p>Countries Served</p>
-    </div>
-    <div class="stat-item">
-       
-        <h2>$<span class="num" data-val="5">0</span>M+</h2>
-        <p>Revenue Generated</p>
-    </div>
-</div>
+        <div class="stats-container">
+            <div class="stat-item">
+                <h2><span class="num" data-start="2000" data-val="2025">2000</span></h2>
+                <p>Founded</p>
+            </div>
+            <div class="stat-item">
+
+                <h2><span class="num" data-val="30">0</span>+</h2>
+                <p>Team Members</p>
+            </div>
+            <div class="stat-item">
+
+                <h2><span class="num" data-val="15">0</span>+</h2>
+                <p>Countries Served</p>
+            </div>
+            <div class="stat-item">
+
+                <h2>$<span class="num" data-val="5">0</span>M+</h2>
+                <p>Revenue Generated</p>
+            </div>
+        </div>
 
         <div class="features-grid">
 
@@ -176,8 +176,7 @@
 
         </div>
     </div>
-
-    <section class="services-container  reveal">
+<section id="services" class="services-container  reveal">
 
 
         <div class="header-content">
@@ -289,7 +288,7 @@
         </div>
     </section>
 
-    <section class="fw-section-container  reveal">
+    <section  class="fw-section-container  reveal">
 
 
         <div class="fw-header">
@@ -303,7 +302,7 @@
         </div>
 
 
-        <div class="fw-card">
+        <div id="portfolio" class="fw-card">
 
 
             <div class="fw-image-box"></div>
@@ -327,7 +326,7 @@
                     <span class="fw-tag">PostgreSQL</span>
                 </div>
 
-               
+
                 <div class="fw-stats">
                     <div class="fw-stat-item">500K+ Users</div>
                     <div class="fw-stat-item">99.9% Uptime</div>
@@ -418,11 +417,11 @@
             </p>
         </div>
 
-        
+
         <div class="testi-scroller">
             <div class="testi-track">
 
-                
+
                 <div class="testi-card">
                     <div class="testi-quote-icon">❝</div>
                     <div class="testi-stars">★★★★★</div>
@@ -469,13 +468,13 @@
                     </div>
                 </div>
 
-           
+
                 <div class="testi-card">
                     <div class="testi-quote-icon">❝</div>
                     <div class="testi-stars">★★★★★</div>
                     <p class="testi-text">
                         'Craft Tech transformed our vision into reality. their attention to details and technical
-                        
+
                     </p>
                     <div class="testi-user">
                         <div class="testi-avatar"></div>
@@ -519,7 +518,7 @@
             </div>
         </div>
     </section>
-    <section class="contact-section  reveal">
+    <section id="contact" class="contact-section  reveal">
 
         <div class="contact-header">
             <span class="contact-badge">Get In Touch</span>
@@ -567,7 +566,7 @@
     <section id="contact-section  reveal">
         <div class="info-list-container  reveal">
 
-  
+
             <div class="info-card">
                 <div class="info-icon-box"></div>
                 <div class="info-content">
@@ -577,7 +576,7 @@
                 </div>
             </div>
 
-            
+
             <div class="info-card">
                 <div class="info-icon-box"></div>
                 <div class="info-content">
@@ -587,7 +586,7 @@
                 </div>
             </div>
 
-         
+
             <div class="info-card">
                 <div class="info-icon-box"></div>
                 <div class="info-content">
@@ -598,16 +597,16 @@
             </div>
 
         </div>
-            <div class="newsletter-container reveal">
-        <div class="newsletter-text">
-            <h3>Subscribe to our Newsletter</h3>
-            <p>Stay updated with our latest tech news and special offers.</p>
+        <div class="newsletter-container reveal">
+            <div class="newsletter-text">
+                <h3>Subscribe to our Newsletter</h3>
+                <p>Stay updated with our latest tech news and special offers.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
         </div>
-        <form class="newsletter-form">
-            <input type="email" placeholder="Enter your email address" required>
-            <button type="submit">Subscribe</button>
-        </form>
-    </div>
 
 
     </section>

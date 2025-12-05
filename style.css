@@ -3,6 +3,10 @@
     --card-border-color: #ccff00;
     --text-white: #ffffff;
 }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; 
+}
 
 * {
     margin: 0;
